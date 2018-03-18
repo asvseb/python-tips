@@ -10,4 +10,9 @@ How to ind the sum of squares of all the even numbers between 1 and 151 in one l
     x = reduce( lambda x,y : x+y  , map( lambda x : x *x , filter( lambda x : x % 2 == 0 , range(1,151))) )
     print(x)
     
+    Notes: 
+    Filter can take a lambda function and then a list
+    Map can take a lambda functions and then lists
+    Reduce will take a lambda function and 'reduces' the list values based on the anonymous function.
+    
   
